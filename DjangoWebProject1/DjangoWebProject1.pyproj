@@ -61,11 +61,14 @@
     <Folder Include="app\templates\app\" />
     <Folder Include="mysite\" />
     <Folder Include="mysite\migrations\" />
+    <Folder Include="mysite\static\" />
+    <Folder Include="mysite\static\css\" />
     <Folder Include="mysite\templates\" />
     <Folder Include="DjangoWebProject1\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="FolderProfile.pubxml" />
+    <Content Include="mysite\static\css\try.css" />
     <Content Include="mysite\templates\index.html" />
     <Content Include="requirements.txt" />
     <Content Include="db.sqlite3" />
