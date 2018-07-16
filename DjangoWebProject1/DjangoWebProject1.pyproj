@@ -41,6 +41,13 @@
     <Compile Include="DjangoWebProject1\settings.py" />
     <Compile Include="DjangoWebProject1\urls.py" />
     <Compile Include="DjangoWebProject1\wsgi.py" />
+    <Compile Include="mysite\admin.py" />
+    <Compile Include="mysite\apps.py" />
+    <Compile Include="mysite\migrations\__init__.py" />
+    <Compile Include="mysite\models.py" />
+    <Compile Include="mysite\tests.py" />
+    <Compile Include="mysite\views.py" />
+    <Compile Include="mysite\__init__.py" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="app\" />
@@ -52,10 +59,14 @@
     <Folder Include="app\static\app\scripts\" />
     <Folder Include="app\templates\" />
     <Folder Include="app\templates\app\" />
+    <Folder Include="mysite\" />
+    <Folder Include="mysite\migrations\" />
+    <Folder Include="mysite\templates\" />
     <Folder Include="DjangoWebProject1\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="FolderProfile.pubxml" />
+    <Content Include="mysite\templates\index.html" />
     <Content Include="requirements.txt" />
     <Content Include="db.sqlite3" />
     <Content Include="app\static\app\content\bootstrap.css" />

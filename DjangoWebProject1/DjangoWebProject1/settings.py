@@ -40,7 +40,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'DjangoWebProject1',
+    'mysite',
 ]
 
 MIDDLEWARE_CLASSES = [
@@ -59,7 +59,7 @@ ROOT_URLCONF = 'DjangoWebProject1.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [os.path.join(BASE_DIR,'templates')],       #不加也成功了
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
